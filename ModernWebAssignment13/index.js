@@ -12,7 +12,6 @@ app.use(cors());
 // DB confignodemon
 mongoose.connect("mongodb+srv://su:Node13mwdf@na-14lls.azure.mongodb.net/test?retryWrites=true&w=majority", {
 
-//mongoose.connect("mongodb+srv://pavan:o2MjWS9rj9EQVgRK@648-assn-13-7v19x.mongodb.net/assn?retryWrites=true&w=majority", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 }, (err) => {
